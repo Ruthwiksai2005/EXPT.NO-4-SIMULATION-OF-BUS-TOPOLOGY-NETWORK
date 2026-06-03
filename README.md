@@ -1,14 +1,9 @@
 # EXPT.NO 4 SIMULATION OF BUS TOPOLOGY NETWORK
 # AIM
-
 To create and monitor Bus Topology and effective data transmission using NS2 Software.
-
 # APPARATUS REQUIRED
-
 PC System with Linux OS, NS2 software.
-
 # ALGORITHM
-
 STEP 1: Start the program.
 STEP 2: Declare the global variables ns for creating a new simulator.
 STEP 3: Open the network animator file in the write mode.
@@ -24,10 +19,7 @@ STEP 12: Create the traffic generator CBR for the source and destination files.
 STEP 13: Define the plot window and finish procedure.
 STEP 14: In the definition of the finish procedure declare the global variables. STEP 15: Close the trace file and namefile and execute the network animation file. STEP 16: At the particular time call the finish procedure.
 STEP 17: Stop the program.
-
 # PROGRAM:
-
-
 #Create a simulator object set ns [new Simulator] #Open the nam trace file set nf [open out.nam w]
 $ns namtrace-all $nf #Define a 'finish' procedure proc finish {}
 {
@@ -59,10 +51,6 @@ $ns run
  
 # OUTPUT
 <img width="1280" height="960" alt="image" src="https://github.com/user-attachments/assets/fa8467c0-b36d-4ffc-b14e-f1ebb195c26a" />
-
-
-
 # RESULT
-
-Thus the Bus Topology using NS2 software is created and monitored successfully.
+Thus,the Bus Topology using NS2 software is created and monitored successfully.
 
