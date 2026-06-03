@@ -50,7 +50,9 @@ $ns at 5.0 "finish"
 $ns run
  
 # OUTPUT
+
 <img width="1280" height="960" alt="image" src="https://github.com/user-attachments/assets/fa8467c0-b36d-4ffc-b14e-f1ebb195c26a" />
+
 # RESULT
 Thus,the Bus Topology using NS2 software is created and monitored successfully.
 
